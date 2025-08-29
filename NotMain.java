@@ -1,6 +1,8 @@
 public class NotMain {
+
+  
     public static void main(String[] args){
-        System.out.println("Hello vikash");
+        System.out.println(args[1]);
     }
 
 }
