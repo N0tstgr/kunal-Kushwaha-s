@@ -1,10 +1,15 @@
 package BTR;
-
+import java.util.Scanner;
 public class NotMain {
 
 
     public static void main(String[] args) {;
-        System.out.println("Hello vikash ");
+
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextLine());
+
+
+
 
     }
 
