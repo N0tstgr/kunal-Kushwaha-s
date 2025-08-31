@@ -34,6 +34,12 @@ public class Typecasting {
         short g = 1024;
         int i = 8900;
         float f = 5749.4f;
+        double d = 0.24334;
+        double result = (f*b) + (i / c) - (d*g);
+        //float * int - double = double  //which will big every thing gets changed on that thing
+        System.out.println((f*b) + " " +(i / c) +" "+ (d*g));
+        System.out.println(result);
+
 
 
     }
