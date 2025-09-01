@@ -30,12 +30,31 @@ public class Loops {
         //body
         }
 
-        */
-        int num = 1;
-        while(num<=6){
-            System.out.println(num);
-            num +=1;
-        }
+//        */
+//        int num = 1;
+//        while(num<=6){
+//            System.out.println(num);
+//            num +=1;
+//        }
+ // dowhile
 
+        /*
+
+        do {
+        } while (condition);
+
+        */
+
+//        int n  = 1;
+//        do {
+//            System.out.println("Hello world");
+////            n++;
+//        } while(n!=1);
+
+        int a= 90;
+        int n = 67;
+        if(a!=89){
+            System.out.println("hello handsome");
+        }
     }
 }
