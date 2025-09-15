@@ -9,10 +9,16 @@ public class Calculator_04 {
         double a = sc.nextDouble();
 
         System.out.println("Select the operator to be performed, +, * , / , -");
-        char o = sc.next().charAt(0);
+        char op = sc.next().charAt(0);
 
         System.out.println("Enter the number  to which you want to perform the operation");
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
+
+        double result;
+
+        switch(op){
+
+        }
 
 
     }
