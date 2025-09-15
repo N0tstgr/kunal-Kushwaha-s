@@ -5,10 +5,12 @@ public class Calculator_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Select the operator to be performed, +, * , / , -");
-
         System.out.println("Enter the number  to which you want to perform the operation");
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
+
+        System.out.println("Select the operator to be performed, +, * , / , -");
+        char o = sc.next().charAt(0);
+
         System.out.println("Enter the number  to which you want to perform the operation");
         int b = sc.nextInt();
 
