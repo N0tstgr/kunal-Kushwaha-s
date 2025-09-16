@@ -10,7 +10,7 @@ public class IndToUsd {
         double dollar = 0;
         dollar = rupee/88.15;
 
-        System.out.println  ("this is the dollar version of indian rupee "  + dollar);
+        System.out.println  ("This is the dollar version of indian rupee "  + dollar);
 
 
 
