@@ -19,7 +19,7 @@ public class Fibonacci_06 {
         int a = sc.nextInt();
 
         System.out.print("Fibonacci series  ");
-        fibonacci.fibonacci(6);
+//        fibonacci.fibonacci(6);
 
     for(int i = 0; i<=a; i++){
         System.out.print( fibonacci.fibonacci(i) + " ");
