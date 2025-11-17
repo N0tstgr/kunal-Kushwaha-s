@@ -11,9 +11,12 @@ public class Loops {
         //Q : Print numbers from 1 to 13
 
          */
-        for (int num=1; num<=13; num+=2){
+        for (int num=1; num<=16; num+=2){
             System.out.println(num);
         }
+        
+        
+        
 
     }
 }
