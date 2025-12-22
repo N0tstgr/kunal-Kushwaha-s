@@ -17,7 +17,7 @@ public class HCfLcm {
 
 
         }
-        System.out.println("HCf = "+ a);
+        System.out.println("HCF = "+ a);
          lcm = c/a;
         System.out.println("LCM = " + lcm);
 
