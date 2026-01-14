@@ -26,11 +26,23 @@ public class Loops {
         while(condition){
         //body
          */
-        int num = 1;
-        while(num<=5){
-            System.out.println(num);
-            num++;
-        }
+//        int num = 1;
+//        while(num<=5){
+//            System.out.println(num);
+//            num++;
+//        }
+
+        //Do while loop
+        /*
+        do{
+        }while (condition);
+         */
+
+        int n = 1;
+        do{
+            System.out.println(n);
+            n++;
+        }while(n<=7);
 
     }
 }
