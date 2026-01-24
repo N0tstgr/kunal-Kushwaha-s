@@ -8,6 +8,8 @@ public class HCfLcm {
         int a = sc.nextInt();
         System.out.println("Enter the second no ");
         int b = sc.nextInt();
+//        int n1 = a; This method will also work
+//        int n2 = b;
         c = (a*b);
 
         while(b!=0){
@@ -18,6 +20,7 @@ public class HCfLcm {
 
         }
         System.out.println("HCF = "+ a);
+//        lcm = (n1*n2)/a; This method will also work
          lcm = c/a;
         System.out.println("LCM = " + lcm);
 
