@@ -10,11 +10,24 @@ public class FibonacciSeries {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of the n : ");
         int n = sc.nextInt();
-        for(int i = 0; i<=n; i++){
-            System.out.print(firstnum + " , ");
+
+//        fibonacci using for loop
+
+//        for(int i = 0; i<=n; i++){
+//            System.out.print(firstnum + " , ");
+//            nextnum = firstnum + secondnum;
+//            firstnum = secondnum;
+//            secondnum = nextnum;
+//        }
+
+//        Fibonacci using while loop
+        int i   = 0;
+        while(i<=n){
+            System.out.print(firstnum + " ,");
             nextnum = firstnum + secondnum;
             firstnum = secondnum;
             secondnum = nextnum;
+            i++;
         }
 
     }
