@@ -6,7 +6,7 @@ public class PerimeterofIsoscelesTriangle {
     static void main() {
 
         float periIso = 0;
-//        perimeter of he isosceles triangle = 2*a+b; here a and b are the side of the isosceles triangle
+//        perimeter of the isosceles triangle = 2*a+b; here a and b are the side of the isosceles triangle
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the value of the a : ");
