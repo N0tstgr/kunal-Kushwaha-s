@@ -5,8 +5,10 @@ public class Shadowing {
 
    public static void main(String[] args) {
        System.out.println(x);
-       int x = 45; //the class variable at line 4 is shadowed by this line
-       System.out.println(x); //45
+       int x ; //the class variable at line 4 is shadowed by this line (declaring)
+//       System.out.println(x); scope is begin when the value is initialised
+       x = 78;//(initialising)
+       System.out.println(x);//45
        fun();
 
 
