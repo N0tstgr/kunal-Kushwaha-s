@@ -20,7 +20,21 @@ public class Scoping {
         System.out.println(name);
 //        System.out.println(c);//cannot be used inside the block
 
+
+        //Scoping in the for
+        for(int i = 0; i<=5; i++){
+            System.out.println(i);
+            int num = 89;
+            a = 1000;
+        }
+        System.out.println(a);
     }
+
+
+
+
+
+
     static void random(int marks){
         int num = 45;
         System.out.println(num);
