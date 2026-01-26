@@ -17,7 +17,7 @@ public class Swap {
        System.out.println(name);
     }
     static String changename(String name){
-        name = "lussy";
+        name = "lussy"; //creating a new object not modifying the object so that value does'nt ch
         return name;
 
     }
