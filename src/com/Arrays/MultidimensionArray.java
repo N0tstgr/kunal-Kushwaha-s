@@ -25,6 +25,7 @@ public class MultidimensionArray {
 //                       {7,9,8}}; //index at 2
 //        System.out.println(Arrays.deepToString(arr1));
 
+
         // for input only
         System.out.println("Enter the values of the matrix : ");
 
@@ -46,8 +47,15 @@ public class MultidimensionArray {
 //            System.out.println();
 //        }
 
-        for(int row=0; row<=arr.length; row++){
-            System.out.println(Arrays.toString(arr[row]));
+//        for(int row=0; row<=arr.length; row++){
+//            System.out.println(Arrays.toString(arr[row]));
+//        }
+
+//        for(String element : arr){
+//            System.out.println(element); This is line is used for the enhanced for loop
+//        }
+        for(int[]a : arr){
+            System.out.println(Arrays.toString(a));
         }
 
 
