@@ -16,10 +16,10 @@ public class Input {
         //[23,45,233,543,3]
         System.out.println(arr[4]);
         //input using for loops
-        for(int i=0; i<arr.length; i++){
-            arr[i] = sc.nextInt();
-        }
-        System.out.println(Arrays.toString(arr));
+//        for(int i=0; i<arr.length; i++){
+//            arr[i] = sc.nextInt();
+//        }
+//        System.out.println(Arrays.toString(arr));
 //        for(int i=0; i<arr.length; i++){
 //            System.out.print(arr[i] + " ");
 //        }
@@ -30,6 +30,16 @@ public class Input {
 
 //        System.out.println(arr[5]); //index out of bound error
 
+
+        //Array of objects
+        String[] str = new String[5];
+        for(int i=0; i<str.length; i++) {
+            str[i] = sc.next();
+        }
+        System.out.println(Arrays.toString(str));
+        //modify
+        str[1] = "vikash";
+        System.out.println(Arrays.toString(str));
 
 
 
