@@ -13,7 +13,10 @@ public class Arraylists {
         list.add(87);
         list.add(77);
         list.add(55);
-        System.out.println(list);
+        list.set(3,823);
+
+        System.out.println(list.contains(100));
+    System.out.println(list);
 
 
     }
