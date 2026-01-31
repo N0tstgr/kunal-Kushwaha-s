@@ -13,22 +13,22 @@ public class FibonacciSeries {
 
 //        fibonacci using for loop
 
-//        for(int i = 0; i<=n; i++){
-//            System.out.print(firstnum + " , ");
-//            nextnum = firstnum + secondnum;
-//            firstnum = secondnum;
-//            secondnum = nextnum;
-//        }
-
-//        Fibonacci using while loop
-        int i   = 0;
-        while(i<=n){
-            System.out.print(firstnum + " ,");
+        for(int i = 0; i<=n; i++){
+            System.out.print(firstnum + " , ");
             nextnum = firstnum + secondnum;
             firstnum = secondnum;
             secondnum = nextnum;
-            i++;
         }
+
+//        Fibonacci using while loop
+//        int i   = 0;
+//        while(i<n){
+//            System.out.print(firstnum );
+//            nextnum = firstnum + secondnum;
+//            firstnum = secondnum;
+//            secondnum = nextnum;
+//            i++;
+//        }
 
     }
 }
