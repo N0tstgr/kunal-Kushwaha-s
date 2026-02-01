@@ -12,6 +12,6 @@ public class Factors {
             i++;
         }
         System.out.println(factors);
-/// pending problem
+
     }
 }
